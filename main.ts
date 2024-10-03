@@ -26,7 +26,6 @@ input.onButtonPressed(Button.A, function() {
     pins.digitalWritePin(DigitalPin.P16, 0)
     basic.pause(1000)
 
-
     // green
     pins.digitalWritePin(DigitalPin.P16, 1)
     pins.digitalWritePin(DigitalPin.P14, 0)
@@ -44,7 +43,6 @@ input.onButtonPressed(Button.A, function() {
     pins.digitalWritePin(DigitalPin.P14, 1)
     pins.digitalWritePin(DigitalPin.P15, 0)
     basic.pause(1000)
-
 
     // cyan
     pins.digitalWritePin(DigitalPin.P15, 1)
